@@ -1,10 +1,10 @@
 "use strict";
-const name = 'MD Rakib';
-const age = 28;
-console.log(name);
-const myFunc = (name, age) => {
-    console.log(`My name is ${name}
+const names = "MD Rakibul Islam Rakib";
+const age = 26;
+// console.log(name);
+const myFunc = (names, age) => {
+    console.log(`My name is ${names}
         My Age: ${age}
     `);
 };
-myFunc(name, age);
+myFunc(names, age);
